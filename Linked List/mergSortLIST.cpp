@@ -17,10 +17,12 @@ node(int n){
     data=n;
     next=NULL;
     
-}  
+}
+
 };
 
 node*merg(node*&head1 , node*&head2){
+    
     node*temp1 = head1;
     node*temp2= head2;
 
